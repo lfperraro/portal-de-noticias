@@ -1,0 +1,33 @@
+#primary-header {
+    display:flex;
+    justify-content: space-between;
+    padding-block:26px;
+
+    h1{
+        font: var(--h1);
+        color: var(--brand-color-light);
+    }
+    
+}
+
+#primary-header div {
+    display:flex;
+    gap: 12px;
+}
+
+#secondary-header {
+    padding-block:14px;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: var(--stroke-color);
+}
+#secondary-header ul {
+    list-style:none;
+    display: flex;
+    justify-content:space-between;
+}
+
+#secondary-header ul li {
+    font: var(--text-sm);
+    color: var(--text-color-secondary);
+}

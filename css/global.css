@@ -42,3 +42,17 @@ a:hover {
 h1,h2,h3 {
     font:inherit;
 }
+
+.container {
+    padding-inline:32px;
+    max-width:1280px;
+    margin-inline:auto;
+}
+
+img {
+    max-width:100%;
+}
+
+main {
+    margin-top: 40px;
+}
